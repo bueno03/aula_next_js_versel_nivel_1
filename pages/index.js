@@ -5,7 +5,9 @@ function Home({ envTypeString }) {
 
     return (
         <div>
-            <h3>Ambiente: {envTypeString}</h3>
+            <header className="header">
+                <h3>Ambiente: {envTypeString}</h3>
+            </header>
             <h1>Home</h1>
             <Link href="/sobre">
                 Pagina sobre

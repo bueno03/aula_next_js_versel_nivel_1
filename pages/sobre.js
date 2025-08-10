@@ -8,7 +8,9 @@ import { getEnvStaticProps } from '../utils';
 function Sobre({ envTypeString }) {
     return (
         <div>
-            <h3>Ambiente: {envTypeString}</h3>
+            <header className="header">
+                <h3>Ambiente: {envTypeString}</h3>
+            </header>
             <h1>Pagina sobre</h1>
              <Link href="/">
                 Pagina Home
