@@ -3,7 +3,7 @@
 // It means, once you load the page, you can navegate through the page links
 // and the page will not be reload again.
 import Link from 'next/link';
-import { getEnvStaticProps } from './utils';
+import { getEnvStaticProps } from '../utils';
 
 function Sobre({ envTypeString }) {
     return (
