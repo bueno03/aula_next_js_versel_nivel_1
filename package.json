@@ -1,0 +1,26 @@
+{
+  "name": "aula_next_js_versel_nivel_1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bueno03/aula_next_js_versel_nivel_1#readme",
+  "bugs": {
+    "url": "https://github.com/bueno03/aula_next_js_versel_nivel_1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bueno03/aula_next_js_versel_nivel_1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbopack"
+  },
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
