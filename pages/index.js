@@ -5,7 +5,7 @@ function Home() {
         <div>
             <h1>Home Homologação</h1>
             <Link href="/sobre">
-                <a>Pagina sobre</a>
+                Pagina sobre
             </Link>
         </div>
     )
