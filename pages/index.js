@@ -5,7 +5,9 @@ function Home() {
 
     if (process.env.ENVIRONMENT_TYPE == "PROD") {
         environmentType = "PROD";
-    } else {
+    }
+
+    if (process.env.ENVIRONMENT_TYPE == "HOMOLOG") {
         environmentType = "HOMOLOG";
     }
 
