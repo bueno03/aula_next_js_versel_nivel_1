@@ -8,3 +8,5 @@ export async function getEnvStaticProps() {
         }
     };
 }
+
+export default getEnvStaticProps;

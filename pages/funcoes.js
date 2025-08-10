@@ -7,3 +7,5 @@ export async function getEnv() {
         envTypeString
     };
 }
+
+export default getEnv;
