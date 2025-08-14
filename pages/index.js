@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getEnvStaticProps } from '../utils';
+import getEnvStaticProps from '../utils';
 
 function Home({ envTypeString }) {
 

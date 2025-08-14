@@ -1,5 +1,5 @@
 
-export async function getEnv() {
+export default function getEnv() {
     const envType = process.env.ENVIRONMENT_TYPE;
     const envTypeString = envType.toString();
 
@@ -7,5 +7,3 @@ export async function getEnv() {
         envTypeString
     };
 }
-
-export default getEnv;
